@@ -14,6 +14,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func firstButton(_ sender: UIButton) {
+        NetworkingManager.makeRequest(requestType: "GET", url: "https://cataas.com/api/cats?tags=cute")
+    }
+    
+    @IBAction func secondButton(_ sender: UIButton) {
+        NetworkingManager.makeRequest(requestType: "GET", url: "https://api.artic.edu/api/v1/artworks")
+    }
+    @IBAction func thirdButton(_ sender: UIButton) {
+        NetworkingManager.makeRequest(requestType: "GET", url: "https://collectionapi.metmuseum.org/public/collection/v1/objects")
+    }
 }
 

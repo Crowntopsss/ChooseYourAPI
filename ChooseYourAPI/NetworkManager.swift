@@ -9,14 +9,8 @@ import Foundation
 
 class NetworkingManager {
     
-    private let session: URLSession
-    
-    init(session: URLSession = URLSession.shared) {
-        self.session = session
-    }
-    
-    func makeRequest(requestType: String, url: String) {
-        
+    static func makeRequest(requestType: String, url: String) {
+        let session: URLSession = URLSession.shared
         guard let url = URL(string: url) else {
             return
         }
@@ -26,7 +20,12 @@ class NetworkingManager {
         
         
         let task = session.dataTask(with: request) { (data, response, error) in
-            print(response)
+           
+            do{
+                let jsonObject = try JSONSerialization.jsonObject(with: data!)
+                print(data)
+                
+            } catch {}
         }
         task.resume()
     }
