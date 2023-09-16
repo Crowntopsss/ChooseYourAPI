@@ -21,21 +21,21 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaD-AQ-51f">
                                         <rect key="frame" x="0.0" y="0.0" width="293" height="34.333333333333336"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Cartass API"/>
                                         <connections>
                                             <action selector="firstButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DGD-5P-Lr5"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJn-t7-C3a">
                                         <rect key="frame" x="0.0" y="84.333333333333314" width="293" height="34.333333333333343"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Artic API"/>
                                         <connections>
                                             <action selector="secondButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U2g-dj-CYX"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1F-2o-L3c">
                                         <rect key="frame" x="0.0" y="168.66666666666669" width="293" height="34.333333333333343"/>
-                                        <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="tinted" title="Collection API"/>
                                         <connections>
                                             <action selector="thirdButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AKO-Bk-wLP"/>
                                         </connections>
