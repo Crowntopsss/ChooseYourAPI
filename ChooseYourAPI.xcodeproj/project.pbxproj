@@ -17,6 +17,7 @@
 		D1574A062AB6183E007F6876 /* ChooseYourAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1574A052AB6183E007F6876 /* ChooseYourAPITests.swift */; };
 		D1574A102AB6183E007F6876 /* ChooseYourAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1574A0F2AB6183E007F6876 /* ChooseYourAPIUITests.swift */; };
 		D1574A122AB6183E007F6876 /* ChooseYourAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1574A112AB6183E007F6876 /* ChooseYourAPIUITestsLaunchTests.swift */; };
+		D1574A1F2AB61885007F6876 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1574A1E2AB61885007F6876 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D1574A0B2AB6183E007F6876 /* ChooseYourAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChooseYourAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1574A0F2AB6183E007F6876 /* ChooseYourAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourAPIUITests.swift; sourceTree = "<group>"; };
 		D1574A112AB6183E007F6876 /* ChooseYourAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D1574A1E2AB61885007F6876 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				D15749EB2AB6183C007F6876 /* AppDelegate.swift */,
 				D15749ED2AB6183C007F6876 /* SceneDelegate.swift */,
 				D15749EF2AB6183C007F6876 /* ViewController.swift */,
+				D1574A1E2AB61885007F6876 /* NetworkManager.swift */,
 				D15749F12AB6183C007F6876 /* Main.storyboard */,
 				D15749F72AB6183D007F6876 /* Assets.xcassets */,
 				D15749F92AB6183D007F6876 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				D15749F62AB6183C007F6876 /* ChooseYourAPI.xcdatamodeld in Sources */,
 				D15749F02AB6183C007F6876 /* ViewController.swift in Sources */,
+				D1574A1F2AB61885007F6876 /* NetworkManager.swift in Sources */,
 				D15749EC2AB6183C007F6876 /* AppDelegate.swift in Sources */,
 				D15749EE2AB6183C007F6876 /* SceneDelegate.swift in Sources */,
 			);
